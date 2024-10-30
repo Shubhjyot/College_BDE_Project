@@ -1,3 +1,5 @@
 venv
 checkpoints
 .idea
+postgresql-42.7.1.jar
+.env
