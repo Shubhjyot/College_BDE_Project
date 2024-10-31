@@ -20,6 +20,8 @@ source venv/bin/activate
 4. Install packages
 ```bash
 pip install -r requirements.txt
+
+pip install git+https://github.com/dpkp/kafka-python.git
 ```
 
 5. Create Postgres tables and randomly generate candidates/voter info.
