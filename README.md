@@ -36,7 +36,7 @@ python voting.py
 
 7. Consume vote data from Kafka topic and process data with Spark
 ```bash
-python spark.py
+python spark-streaming.py
 ```
 
 8. Run Streamlit app
