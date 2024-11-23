@@ -1,0 +1,7 @@
+# This is for changing ui colors
+[theme]
+primaryColor="#03c1ef"
+backgroundColor="#000000"
+secondaryBackgroundColor="#000000"
+textColor="#ffffff"
+font="monospace"
