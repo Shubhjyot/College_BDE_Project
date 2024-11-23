@@ -45,3 +45,6 @@ source venv/bin/activate
 
 streamlit run streamlit-app.py
 ```
+
+### Spark Port: 4040
+### Streamlit Port: 8501
