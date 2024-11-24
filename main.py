@@ -1,12 +1,12 @@
 import random
-
 import psycopg2
 import requests
 import simplejson as json
 from confluent_kafka import SerializingProducer
 
 BASE_URL = 'https://randomuser.me/api/?nat=in'
-PARTIES = ["BJP", "Congress", "AAP","Shiv Sena"]
+# Just Append More Parties here and automatically we will have more candidates
+PARTIES = ["BJP", "Congress", "AAP","Shiv Sena"] 
 number_of_candidates = PARTIES.__len__()
 random.seed(42)
 
