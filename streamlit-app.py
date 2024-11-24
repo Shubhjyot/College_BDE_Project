@@ -34,7 +34,7 @@ def create_kafka_consumer(topic_name):
 
 
 # Function to fetch voting statistics from PostgreSQL database
-# @st.cache_data
+@st.cache_data
 def fetch_voting_stats():
     # Connect to PostgreSQL database
     conn = psycopg2.connect(
@@ -115,7 +115,7 @@ def plot_pie_chart(data, title="Gender Distribution of Voters", labels=None):
 
 
 # Function to split a dataframe into chunks for pagination
-# @st.cache_data(show_spinner=False)
+@st.cache_data(show_spinner=False)
 def split_frame(input_df, rows):
     df = [input_df.loc[i : i + rows - 1, :] for i in range(0, len(input_df), rows)]
     return df
